@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-/*Обнуление*/
-
 * {
   padding: 0;
   margin: 0;
@@ -9,30 +6,25 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 :focus,
 :active {
   outline: none;
 }
-
 a:focus,
 a:active {
   outline: none;
 }
-
 nav,
 footer,
 header,
 aside {
   display: block;
 }
-
 html,
 body {
   height: 100%;
@@ -44,13 +36,11 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
 input,
 button,
 textarea {
   font-family: inherit;
 }
-
 input::-ms-clear {
   display: none;
 }
