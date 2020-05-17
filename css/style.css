@@ -895,8 +895,8 @@ html {
   }
 
   .menu__box {
-    -webkit-box-shadow: -5px 0px 15px #000000c0;
-    box-shadow: -5px 0px 15px #000000c0;
+    -webkit-box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.7);
+    box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.7);
     background-color: rgba(0, 0, 0, 0.7);
     display: block;
     position: fixed;
