@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+/*Обнуление*/
+
 * {
   padding: 0;
   margin: 0;
@@ -6,25 +9,30 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 :focus,
 :active {
   outline: none;
 }
+
 a:focus,
 a:active {
   outline: none;
 }
+
 nav,
 footer,
 header,
 aside {
   display: block;
 }
+
 html,
 body {
   height: 100%;
@@ -36,11 +44,13 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 input,
 button,
 textarea {
   font-family: inherit;
 }
+
 input::-ms-clear {
   display: none;
 }
@@ -680,21 +690,20 @@ html {
 .popup {
   display: none;
   position: fixed;
-  overflow: hidden;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 1000;
-  width: 75%;
+  width: 95%;
 }
 
 .popup__content {
-  margin: 40px auto 0px auto;
+  margin: 5px auto 0px auto;
   padding: 20px;
   background-color: #e6e6e6;
   border-radius: 5px;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 .popup__form {
@@ -777,7 +786,7 @@ html {
   transition: .5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
+  z-index: 998;
 }
 
 #button::after {
@@ -1080,6 +1089,16 @@ html {
   .footer__copiright {
     font-size: 1.5rem;
   }
+
+  .popup__input {
+    height: 30px;
+  }
+}
+
+@media (max-width: 768) {
+  .popup__title {
+    font-size: 2.3rem;
+  }
 }
 
 @media (max-width: 414px) {
@@ -1127,10 +1146,6 @@ html {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 100%;
     flex: 0 1 100%;
-  }
-
-  .popup__title {
-    font-size: 2.3rem;
   }
 
   .popup__input {
