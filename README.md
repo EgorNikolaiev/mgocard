@@ -1,1 +1,1 @@
-https://mrgo336.github.io/Nikolayev/
+https://mrgo336.github.io/mgocard/
